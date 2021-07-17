@@ -103,6 +103,7 @@ public abstract class CameraActivity extends AppCompatActivity
       requestPermission();
     }
 
+    // Initialization
     threadsTextView = findViewById(R.id.threads);
     plusImageView = findViewById(R.id.plus);
     minusImageView = findViewById(R.id.minus);
